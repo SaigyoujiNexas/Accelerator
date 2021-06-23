@@ -1,0 +1,121 @@
+# Project: TTMS
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = TTMS(C+Lang)/src/Common/common.o TTMS(C+Lang)/src/Common/listTestDrv.o TTMS(C+Lang)/src/Persistence/EntityKey_Persist.o TTMS(C+Lang)/src/Persistence/Seat_Persist.o TTMS(C+Lang)/src/Persistence/Studio_Persist.o TTMS(C+Lang)/src/Service/Seat.o TTMS(C+Lang)/src/Service/Studio.o TTMS(C+Lang)/src/View/Main_Menu.o TTMS(C+Lang)/src/View/Seat_UI.o TTMS(C+Lang)/src/View/Studio_UI.o TTMS(C+Lang)/src/TTMS.o TTMS(C+Lang)/src/Service/EntityKey.o TTMS(C+Lang)/src/View/Play_UI.o TTMS(C+Lang)/src/View/Queries_Menu.o TTMS(C+Lang)/src/View/Sale_UI.o TTMS(C+Lang)/src/View/Schedule_UI.o TTMS(C+Lang)/src/View/Ticket_UI.o TTMS(C+Lang)/src/Service/Play.o TTMS(C+Lang)/src/Service/Sale.o TTMS(C+Lang)/src/Service/Schedule.o TTMS(C+Lang)/src/Service/Ticket.o TTMS(C+Lang)/src/Persistence/Play_Persist.o TTMS(C+Lang)/src/Persistence/Query_Persist.o TTMS(C+Lang)/src/Persistence/Sale_Persist.o TTMS(C+Lang)/src/Persistence/Schedule_Persist.o TTMS(C+Lang)/src/Persistence/Ticket_Persist.o TTMS(C+Lang)/src/View/SalesAnalysis_UI.o TTMS(C+Lang)/src/Service/SalesAnalysis.o TTMS(C+Lang)/src/Service/Account.o TTMS(C+Lang)/src/View/Account_UI.o TTMS(C+Lang)/src/Persistence/Account_Persist.o TTMS(C+Lang)/src/View/StaSales_UI.o
+LINKOBJ  = TTMS(C+Lang)/src/Common/common.o TTMS(C+Lang)/src/Common/listTestDrv.o TTMS(C+Lang)/src/Persistence/EntityKey_Persist.o TTMS(C+Lang)/src/Persistence/Seat_Persist.o TTMS(C+Lang)/src/Persistence/Studio_Persist.o TTMS(C+Lang)/src/Service/Seat.o TTMS(C+Lang)/src/Service/Studio.o TTMS(C+Lang)/src/View/Main_Menu.o TTMS(C+Lang)/src/View/Seat_UI.o TTMS(C+Lang)/src/View/Studio_UI.o TTMS(C+Lang)/src/TTMS.o TTMS(C+Lang)/src/Service/EntityKey.o TTMS(C+Lang)/src/View/Play_UI.o TTMS(C+Lang)/src/View/Queries_Menu.o TTMS(C+Lang)/src/View/Sale_UI.o TTMS(C+Lang)/src/View/Schedule_UI.o TTMS(C+Lang)/src/View/Ticket_UI.o TTMS(C+Lang)/src/Service/Play.o TTMS(C+Lang)/src/Service/Sale.o TTMS(C+Lang)/src/Service/Schedule.o TTMS(C+Lang)/src/Service/Ticket.o TTMS(C+Lang)/src/Persistence/Play_Persist.o TTMS(C+Lang)/src/Persistence/Query_Persist.o TTMS(C+Lang)/src/Persistence/Sale_Persist.o TTMS(C+Lang)/src/Persistence/Schedule_Persist.o TTMS(C+Lang)/src/Persistence/Ticket_Persist.o TTMS(C+Lang)/src/View/SalesAnalysis_UI.o TTMS(C+Lang)/src/Service/SalesAnalysis.o TTMS(C+Lang)/src/Service/Account.o TTMS(C+Lang)/src/View/Account_UI.o TTMS(C+Lang)/src/Persistence/Account_Persist.o TTMS(C+Lang)/src/View/StaSales_UI.o
+LIBS     = -L"D:/dev/Dev-Cpp/MinGW64/lib" -L"D:/dev/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/dev/Dev-Cpp/MinGW64/include" -I"D:/dev/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/dev/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/dev/Dev-Cpp/MinGW64/include" -I"D:/dev/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/dev/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/dev/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = TTMS.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+TTMS(C+Lang)/src/Common/common.o: TTMS(C+Lang)/src/Common/common.c
+	$(CC) -c TTMS(C+Lang)/src/Common/common.c -o TTMS(C+Lang)/src/Common/common.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Common/listTestDrv.o: TTMS(C+Lang)/src/Common/listTestDrv.c
+	$(CC) -c TTMS(C+Lang)/src/Common/listTestDrv.c -o TTMS(C+Lang)/src/Common/listTestDrv.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/EntityKey_Persist.o: TTMS(C+Lang)/src/Persistence/EntityKey_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/EntityKey_Persist.c -o TTMS(C+Lang)/src/Persistence/EntityKey_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Seat_Persist.o: TTMS(C+Lang)/src/Persistence/Seat_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Seat_Persist.c -o TTMS(C+Lang)/src/Persistence/Seat_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Studio_Persist.o: TTMS(C+Lang)/src/Persistence/Studio_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Studio_Persist.c -o TTMS(C+Lang)/src/Persistence/Studio_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/Seat.o: TTMS(C+Lang)/src/Service/Seat.c
+	$(CC) -c TTMS(C+Lang)/src/Service/Seat.c -o TTMS(C+Lang)/src/Service/Seat.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/Studio.o: TTMS(C+Lang)/src/Service/Studio.c
+	$(CC) -c TTMS(C+Lang)/src/Service/Studio.c -o TTMS(C+Lang)/src/Service/Studio.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Main_Menu.o: TTMS(C+Lang)/src/View/Main_Menu.c
+	$(CC) -c TTMS(C+Lang)/src/View/Main_Menu.c -o TTMS(C+Lang)/src/View/Main_Menu.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Seat_UI.o: TTMS(C+Lang)/src/View/Seat_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/Seat_UI.c -o TTMS(C+Lang)/src/View/Seat_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Studio_UI.o: TTMS(C+Lang)/src/View/Studio_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/Studio_UI.c -o TTMS(C+Lang)/src/View/Studio_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/TTMS.o: TTMS(C+Lang)/src/TTMS.c
+	$(CC) -c TTMS(C+Lang)/src/TTMS.c -o TTMS(C+Lang)/src/TTMS.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/EntityKey.o: TTMS(C+Lang)/src/Service/EntityKey.c
+	$(CC) -c TTMS(C+Lang)/src/Service/EntityKey.c -o TTMS(C+Lang)/src/Service/EntityKey.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Play_UI.o: TTMS(C+Lang)/src/View/Play_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/Play_UI.c -o TTMS(C+Lang)/src/View/Play_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Queries_Menu.o: TTMS(C+Lang)/src/View/Queries_Menu.c
+	$(CC) -c TTMS(C+Lang)/src/View/Queries_Menu.c -o TTMS(C+Lang)/src/View/Queries_Menu.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Sale_UI.o: TTMS(C+Lang)/src/View/Sale_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/Sale_UI.c -o TTMS(C+Lang)/src/View/Sale_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Schedule_UI.o: TTMS(C+Lang)/src/View/Schedule_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/Schedule_UI.c -o TTMS(C+Lang)/src/View/Schedule_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Ticket_UI.o: TTMS(C+Lang)/src/View/Ticket_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/Ticket_UI.c -o TTMS(C+Lang)/src/View/Ticket_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/Play.o: TTMS(C+Lang)/src/Service/Play.c
+	$(CC) -c TTMS(C+Lang)/src/Service/Play.c -o TTMS(C+Lang)/src/Service/Play.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/Sale.o: TTMS(C+Lang)/src/Service/Sale.c
+	$(CC) -c TTMS(C+Lang)/src/Service/Sale.c -o TTMS(C+Lang)/src/Service/Sale.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/Schedule.o: TTMS(C+Lang)/src/Service/Schedule.c
+	$(CC) -c TTMS(C+Lang)/src/Service/Schedule.c -o TTMS(C+Lang)/src/Service/Schedule.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/Ticket.o: TTMS(C+Lang)/src/Service/Ticket.c
+	$(CC) -c TTMS(C+Lang)/src/Service/Ticket.c -o TTMS(C+Lang)/src/Service/Ticket.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Play_Persist.o: TTMS(C+Lang)/src/Persistence/Play_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Play_Persist.c -o TTMS(C+Lang)/src/Persistence/Play_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Query_Persist.o: TTMS(C+Lang)/src/Persistence/Query_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Query_Persist.c -o TTMS(C+Lang)/src/Persistence/Query_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Sale_Persist.o: TTMS(C+Lang)/src/Persistence/Sale_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Sale_Persist.c -o TTMS(C+Lang)/src/Persistence/Sale_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Schedule_Persist.o: TTMS(C+Lang)/src/Persistence/Schedule_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Schedule_Persist.c -o TTMS(C+Lang)/src/Persistence/Schedule_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Ticket_Persist.o: TTMS(C+Lang)/src/Persistence/Ticket_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Ticket_Persist.c -o TTMS(C+Lang)/src/Persistence/Ticket_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/SalesAnalysis_UI.o: TTMS(C+Lang)/src/View/SalesAnalysis_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/SalesAnalysis_UI.c -o TTMS(C+Lang)/src/View/SalesAnalysis_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/SalesAnalysis.o: TTMS(C+Lang)/src/Service/SalesAnalysis.c
+	$(CC) -c TTMS(C+Lang)/src/Service/SalesAnalysis.c -o TTMS(C+Lang)/src/Service/SalesAnalysis.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Service/Account.o: TTMS(C+Lang)/src/Service/Account.c
+	$(CC) -c TTMS(C+Lang)/src/Service/Account.c -o TTMS(C+Lang)/src/Service/Account.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/Account_UI.o: TTMS(C+Lang)/src/View/Account_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/Account_UI.c -o TTMS(C+Lang)/src/View/Account_UI.o $(CFLAGS)
+
+TTMS(C+Lang)/src/Persistence/Account_Persist.o: TTMS(C+Lang)/src/Persistence/Account_Persist.c
+	$(CC) -c TTMS(C+Lang)/src/Persistence/Account_Persist.c -o TTMS(C+Lang)/src/Persistence/Account_Persist.o $(CFLAGS)
+
+TTMS(C+Lang)/src/View/StaSales_UI.o: TTMS(C+Lang)/src/View/StaSales_UI.c
+	$(CC) -c TTMS(C+Lang)/src/View/StaSales_UI.c -o TTMS(C+Lang)/src/View/StaSales_UI.o $(CFLAGS)

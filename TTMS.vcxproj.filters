@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TTMS%28C+Lang%29\.metadata\.plugins\org.eclipse.cdt.make.core\specs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\.metadata\.plugins\org.eclipse.cdt.make.core\specs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\TTMS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Common\common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Common\listTestDrv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Account_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\EntityKey_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Play_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Query_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Sale_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Schedule_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Seat_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Studio_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Ticket_Persist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Account.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\EntityKey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Play.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Sale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\SalesAnalysis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Schedule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Seat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Studio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Ticket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Account_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Main_Menu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Play_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Queries_Menu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\SalesAnalysis_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Sale_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Schedule_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Seat_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\StaSales_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Studio_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Ticket_UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Common\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Common\List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Common\listTestDrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Account_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\EntityKey_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Play_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Query_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Sale_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Schedule_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Seat_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Studio_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Ticket_Persist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\EntityKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Play.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Sale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\SalesAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Schedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Seat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Studio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Ticket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Account_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Main_Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Play_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Queries_Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\SalesAnalysis_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Sale_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Schedule_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Seat_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\StaSales_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Studio_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Ticket_UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

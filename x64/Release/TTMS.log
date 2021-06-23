@@ -1,0 +1,5 @@
+﻿  TTMS.c
+x64\Release\specs.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  正在生成代码
+  已完成代码的生成
+  TTMS.vcxproj -> C:\Users\Yuki\Desktop\Accelerator\x64\Release\TTMS.exe

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{7621C695-6157-441D-92A2-676DEE45BC0C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="TTMS%28C+Lang%29\.metadata\.plugins\org.eclipse.cdt.make.core\specs.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\.metadata\.plugins\org.eclipse.cdt.make.core\specs.cpp" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Common\common.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Common\listTestDrv.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Account_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\EntityKey_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Play_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Query_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Sale_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Schedule_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Seat_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Studio_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Persistence\Ticket_Persist.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Account.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\EntityKey.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Play.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Sale.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\SalesAnalysis.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Schedule.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Seat.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Studio.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\Service\Ticket.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\TTMS.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Account_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Main_Menu.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Play_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Queries_Menu.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\SalesAnalysis_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Sale_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Schedule_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Seat_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\StaSales_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Studio_UI.c" />
+    <ClCompile Include="TTMS%28C+Lang%29\src\View\Ticket_UI.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TTMS%28C+Lang%29\src\Common\common.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Common\List.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Common\listTestDrv.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Account_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\EntityKey_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Play_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Query_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Sale_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Schedule_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Seat_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Studio_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Persistence\Ticket_Persist.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Account.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\EntityKey.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Play.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Sale.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\SalesAnalysis.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Schedule.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Seat.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Studio.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\Service\Ticket.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Account_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Main_Menu.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Play_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Queries_Menu.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\SalesAnalysis_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Sale_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Schedule_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Seat_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\StaSales_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Studio_UI.h" />
+    <ClInclude Include="TTMS%28C+Lang%29\src\View\Ticket_UI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
